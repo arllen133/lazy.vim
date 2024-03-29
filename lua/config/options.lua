@@ -7,3 +7,4 @@ vim.opt.listchars = "tab:»·,nbsp:+,trail:·,extends:→,precedes:←"
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.swapfile = false
+vim.opt.spelllang = { "en", "cjk" }
