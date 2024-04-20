@@ -17,4 +17,34 @@ return {
       require("nvim-surround").setup()
     end,
   },
+  {
+    "Exafunction/codeium.vim",
+    event = "BufEnter",
+    -- config = function()
+    --   --  Manually trigger suggestion
+    --   vim.keymap.set("i", "<C-p>", function()
+    --     return vim.fn["codeium#Complete"]()
+    --   end, { expr = true, silent = true })
+    --
+    --   -- Accept suggestion
+    --   vim.keymap.set("i", "<C-g>", function()
+    --     return vim.fn["codeium#Accept"]()
+    --   end, { expr = true, silent = true })
+    --
+    --   -- Next suggestion
+    --   vim.keymap.set("i", "<c-;>", function()
+    --     return vim.fn["codeium#CycleCompletions"](1)
+    --   end, { expr = true, silent = true })
+    --
+    --   -- Previous suggestion
+    --   vim.keymap.set("i", "<c-,>", function()
+    --     return vim.fn["codeium#CycleCompletions"](-1)
+    --   end, { expr = true, silent = true })
+    --
+    --   -- Clear suggestion
+    --   vim.keymap.set("i", "<c-x>", function()
+    --     return vim.fn["codeium#Clear"]()
+    --   end, { expr = true, silent = true })
+    -- end,
+  },
 }

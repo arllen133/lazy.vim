@@ -32,6 +32,7 @@ return {
                 unusedparams = true,
                 unusedwrite = true,
                 useany = true,
+                fillstruct = true,
               },
               usePlaceholders = true,
               completeUnimported = true,
